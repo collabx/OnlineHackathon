@@ -12,6 +12,9 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script src="js/modernizr.custom.63321.js"></script>
 		<!--[if lte IE 7]><style>.support-note .note-ie{display:block;}</style><![endif]-->
+		
+									<link rel="import" href="http://collabx.github.io/OnlineHackathon/Timeline/warnings.html">
+
 	</head>
 	<body>
 		<div class="container">	
@@ -36,21 +39,13 @@
 				<div class="support-note">
 					<span class="note-ie">Sorry, only modern browsers.</span>
 				</div>
-							<link rel="import" href="http://collabx.github.io/OnlineHackathon/Timeline/warnings.html">
 
 			</header>
 			
 			
 			
 			
-			
-  <script>
-    var link = document.querySelector('link[rel="import"]');
-    var content = link.import;
-    // Grab DOM from warning.html's document.
-    var el = content.querySelector('.warning');
-    document.body.appendChild(el.cloneNode(true));
-  </script>
+
 			
 
 			
@@ -174,6 +169,14 @@
 			</section>
 
 		</div><!-- /container -->
-
+			
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    // Grab DOM from warning.html's document.
+    var el = content.querySelector('.warning');
+    document.body.appendChild(el.cloneNode(true));
+  </script>
+  
 	</body>
 </html>
